@@ -21,10 +21,10 @@ The following documentation provides details of Project 1 at GWU Cyber Security 
 
   Machine List
 
-  Red-Team-Jump-Box | Gateway | 10.0.0.4<br/>
-  Web-1 | DVWA Container | 10.0.0.5</br>
-  Web-2 | DVWA Container | 10.0.0.6</br>
-  ELK-Stack | Linux Server | 10.0.1.4<br/>
+  Red-Team-Jump-Box | Gateway        | 10.0.0.4<br/>
+  Web-1             | DVWA Container | 10.0.0.5</br>
+  Web-2             | DVWA Container | 10.0.0.6</br>
+  ELK-Stack         | Linux Server   | 10.0.1.4<br/>
 
 
  Access Administration

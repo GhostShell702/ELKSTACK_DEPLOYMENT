@@ -35,10 +35,10 @@ The following documentation provides details of Project 1 at GWU Cyber Security 
  
  Name         |              Access
  
-  Red-Team-Jump-Box   |   Web-1 | Web-2 | ELK-Stack<br/>
-  Web-1               |   Red-Team-Jump-Box | ELK-Stack<br/>
-  Web-2               |   Red-Team-Jump-Box | ELK-Stack<br/>
-  ELK-Stack           |   Web-1 | Web-2 | Red-Team-Jump-Box<br/>
+  Red-Team-Jump-Box   --> |   Web-1 | Web-2 | ELK-Stack<br/>
+  Web-1               --> |   Red-Team-Jump-Box | ELK-Stack<br/>
+  Web-2               --> |   Red-Team-Jump-Box | ELK-Stack<br/>
+  ELK-Stack           --> |   Web-1 | Web-2 | Red-Team-Jump-Box<br/>
 
   ELK Stack Configurations
 

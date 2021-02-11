@@ -1,4 +1,4 @@
-# ELKSTACK_DEPLOYMENT
+# Terry's ELKSTACK_DEPLOYMENT
 The following documentation provides details of Project 1 at GWU Cyber Security Bootcamp.
 
 

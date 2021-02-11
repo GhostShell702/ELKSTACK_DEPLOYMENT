@@ -55,8 +55,12 @@ The configuration of the ELK stack was obtainable through the creation of a dock
 
   After configuration of the ansible on the gateway VM, use the following steps:
 
-  Copy all playbooks into the “/ect/ansible/” directory
-  Edit the correlating “host” group in the “/etc/ansible/hosts” file, with the IP addresses of the machines you would like to install your playbook and insert the following after each address “ansible_python_interpreter=/usr/bin/python3”.
-  Run the playbook (example: ansible-playbook.yml), then run 'curl localhost/setup.php' to ensure the installation was successful
-  To ensure the ELK server is running, navigate to “http://[ELK-Stack IP Address]:5601/app/kibana”
+  1. Copy all playbooks into the “/ect/ansible/” directory
+  
+  2. Edit the correlating “host” group in the “/etc/ansible/hosts” file, with the IP addresses of the
+  machines you would like to install your playbook and insert the following after each address “ansible_python_interpreter=/usr/bin/python3”.
+  
+  3. Run the playbook (example: ansible-playbook.yml), then run 'curl localhost/setup.php' to ensure the installation was successful
+  
+  4. To ensure the ELK server is running, navigate to “http://[ELK-Stack IP Address]:5601/app/kibana”
 

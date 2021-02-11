@@ -21,19 +21,18 @@ The following documentation provides details of Project 1 at GWU Cyber Security 
 
   Machine List
 
-  Name              |  Description   | Private IP Address
   Red-Team-Jump-Box | Gateway        |    10.0.0.4
   Web-1             | DVWA Container |    10.0.0.5
   Web-2             | DVWA Container |    10.0.0.6
   ELK-Stack         | Linux Server   |    10.0.1.4
 
 
-  Access Administration
+ Access Administration
 
-  The sole gateway into the virtual network is provided by the jump box. The remainder of the network is unexposed to the internet. 
+ The sole gateway into the virtual network is provided by the jump box. The remainder of the network is unexposed to the internet. 
 
-  Access Controls
-         Name         |              Access
+ Access Controls
+ Name         |              Access
   Red-Team-Jump-Box.  |   Web-1 | Web-2 | ELK-Stack
   Web-1               |   Red-Team-Jump-Box | ELK-Stack
   Web-2               |   Red-Team-Jump-Box | ELK-Stack

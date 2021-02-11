@@ -9,7 +9,7 @@ The following documentation provides details of Project 1 at GWU Cyber Security 
 
   Description of Topology
 
-    Objective: To create a monitored and load balanced instance of a DVWA network.
+   Objective: To create a monitored and load balanced instance of a DVWA network.
   Which will ensure the availability of the network and increase its overall efficiency. 
 
   Jump box: This provides a gateway to the network and provides an extra layer of security by decreasing exposure of the network to the internet.
@@ -19,18 +19,18 @@ The following documentation provides details of Project 1 at GWU Cyber Security 
   Metricbeat: Monitors various activities such as downtime, ect.
 
 
-                       Machine List
+  Machine List
 
-          Name      |  Description   | Private IP Address
-  Red-Team-Jump-Box | Gateway        |    10.0.0.4
-  Web-1             | DVWA Container |    10.0.0.5
-  Web-2             | DVWA Container |    10.0.0.6
-  ELK-Stack         | Linux Server   |    10.0.1.4
+   Name              |  Description   | Private IP Address
+   Red-Team-Jump-Box | Gateway        |    10.0.0.4
+   Web-1             | DVWA Container |    10.0.0.5
+   Web-2             | DVWA Container |    10.0.0.6
+   ELK-Stack         | Linux Server   |    10.0.1.4
 
 
   Access Administration
 
-    The sole gateway into the virtual network is provided by the jump box. The remainder of the network is unexposed to the internet. 
+  The sole gateway into the virtual network is provided by the jump box. The remainder of the network is unexposed to the internet. 
 
   Access Controls
          Name         |              Access
@@ -41,19 +41,19 @@ The following documentation provides details of Project 1 at GWU Cyber Security 
 
   ELK Stack Configurations
 
-    The configuration of the ELK stack was obtainable through the creation of a docker container and the use of an ansible playbook (install-elk.yml). This mitigated some of the risks of misconfigurations that could potentially happen through manual setup.
+The configuration of the ELK stack was obtainable through the creation of a docker container and the use of an ansible playbook (install-elk.yml). This mitigated some of the risks of misconfigurations that could potentially happen through manual setup.
 
   Install and configure the ELK Stack with docker
   Install docker.io
   Install pip3
   Download and launch ELK container
 
-    This configures the ELK-Stack server to monitor Web-1 and Web-2.
+  This configures the ELK-Stack server to monitor Web-1 and Web-2.
 
 
   Implementation
 
-    After configuration of the ansible on the gateway VM, use the following steps:
+  After configuration of the ansible on the gateway VM, use the following steps:
 
   Copy all playbooks into the “/ect/ansible/” directory
   Edit the correlating “host” group in the “/etc/ansible/hosts” file, with the IP addresses of the machines you would like to install your playbook and insert the following after each address “ansible_python_interpreter=/usr/bin/python3”.

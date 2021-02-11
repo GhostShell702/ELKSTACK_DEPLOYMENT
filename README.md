@@ -31,9 +31,11 @@ The following documentation provides details of Project 1 at GWU Cyber Security 
 
  The sole gateway into the virtual network is provided by the jump box. The remainder of the network is unexposed to the internet. 
 
- Access Controls<br/>
- Name         |              Access<br/>
-  Red-Team-Jump-Box.  |   Web-1 | Web-2 | ELK-Stack<br/>
+ Access Controls
+ 
+ Name         |              Access
+ 
+  Red-Team-Jump-Box   |   Web-1 | Web-2 | ELK-Stack<br/>
   Web-1               |   Red-Team-Jump-Box | ELK-Stack<br/>
   Web-2               |   Red-Team-Jump-Box | ELK-Stack<br/>
   ELK-Stack           |   Web-1 | Web-2 | Red-Team-Jump-Box<br/>

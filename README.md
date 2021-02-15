@@ -12,7 +12,7 @@ The following documentation provides details of Project 1 at GWU Cyber Security 
    Objective: To create a monitored and load balanced instance of a DVWA network.
   Which will ensure the availability of the network and increase its overall efficiency. 
 
-  Jump box: This provides a gateway to the network and provides an extra layer of security by decreasing exposure of the network to the internet.
+  Jump box: This provides a gateway to the network and provides an extra layer of security by decreasing exposure of the network to the internet.<br/>
   Load balancer: Increase the capacity and reliability of applications.<br/>
   ELK server: Integration of an ELK server provides the ability to monitor vulnerable VMs and log activity.<br/>
   Filebeat: Monitors changes of files on the VMs.<br/>

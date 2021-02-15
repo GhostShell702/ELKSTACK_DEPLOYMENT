@@ -13,7 +13,7 @@ The following documentation provides details of Project 1 at GWU Cyber Security 
   Which will ensure the availability of the network and increase its overall efficiency. 
 
   Jump box: This provides a gateway to the network and provides an extra layer of security by decreasing exposure of the network to the internet.
-  Load balancer: Increase the capacity and reliability of applications.
+  Load balancer: Increase the capacity and reliability of applications.<br/>
   ELK server: Integration of an ELK server provides the ability to monitor vulnerable VMs and log activity.<br/>
   Filebeat: Monitors changes of files on the VMs.<br/>
   Metricbeat: Monitors various activities such as downtime, ect.<br/>
